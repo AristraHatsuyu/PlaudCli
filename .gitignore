@@ -1,0 +1,21 @@
+# Exported browser archives can contain live authentication credentials.
+*.har
+
+# Downloaded recordings and interrupted downloads.
+downloads/
+*.part
+
+# Optional project-local PlaudCLI configuration.
+.plaudcli/
+
+# Credential filename used in the SDK example.
+credential.json
+
+.DS_Store
+node_modules/
+coverage/
+*.tmp
+*.tgz
+.env
+.env.*
+session.json

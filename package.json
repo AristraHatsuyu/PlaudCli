@@ -1,0 +1,18 @@
+{
+  "name": "plaudcli",
+  "version": "0.3.0",
+  "description": "Unofficial zero-dependency CLI and Node.js SDK for Plaud China recordings",
+  "license": "MIT",
+  "author": "Aristra",
+  "main": "plaudsdk.js",
+  "bin": {"plaudcli": "plaudcli.js"},
+  "engines": {"node": ">=22"},
+  "files": ["plaudcli.js", "plaudsdk.js", "lib/", "README.md", "LICENSE"],
+  "scripts": {
+    "start": "node plaudcli.js",
+    "test": "node --test",
+    "check": "node --check plaudcli.js && node --check plaudsdk.js && node --check lib/client.js && node --check lib/download.js"
+  },
+  "repository": {"type": "git", "url": "https://github.com/AristraHatsuyu/PlaudCli.git"},
+  "bugs": {"url": "https://github.com/AristraHatsuyu/PlaudCli/issues"}
+}
